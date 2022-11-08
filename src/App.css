@@ -27,7 +27,7 @@
 .cartaoCredito {
   background-color: bisque;
   display: flex;
-  width: 200px;
+  width: 230px;
   flex-direction: column;
   padding: 10px 10px;
   border-radius: 5px;
