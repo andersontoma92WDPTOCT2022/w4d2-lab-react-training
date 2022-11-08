@@ -7,6 +7,7 @@ import CreditCard from './components/CreditCard';
 import Rating from './components/Rating';
 import DriverCard from './components/DriverCard';
 import LikeButton from './components/LikeButton';
+import FaceBook from './components/FaceBook';
 
 function App() {
   return (
@@ -114,6 +115,9 @@ function App() {
       </section>
       <section>
         <LikeButton />
+      </section>
+      <section>
+        <FaceBook />
       </section>
     </div>
   );

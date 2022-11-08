@@ -1,4 +1,4 @@
-function Random({ max, min }) {
+function Random({ min, max }) {
   let sorteado = min + Math.floor(Math.random() * (max - min));
   return (
     <div className="greetings">
