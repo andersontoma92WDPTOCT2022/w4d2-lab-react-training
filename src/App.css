@@ -20,3 +20,28 @@
   padding: 10px;
   margin: 5px;
 }
+.bandeira {
+  width: 40px;
+  display: flex;
+}
+.cartaoCredito {
+  background-color: bisque;
+  display: flex;
+  width: 200px;
+  flex-direction: column;
+  padding: 10px 10px;
+  border-radius: 5px;
+  margin: 10px;
+}
+.cartaoNumero {
+  text-align: center;
+}
+.cartaoDados {
+  font-size: 12px;
+  text-align: left;
+}
+.divBandeira {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
