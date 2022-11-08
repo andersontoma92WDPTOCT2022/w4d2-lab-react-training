@@ -6,11 +6,11 @@ function Greetings({ lang, children }) {
     fr: 'bonjour',
   };
   return (
-    <div>
+    <div className="greetings">
       {/*{console.log(children)} */}
-      <p>
+      <h3>
         {frase[lang]} {children}
-      </p>
+      </h3>
     </div>
   );
 }

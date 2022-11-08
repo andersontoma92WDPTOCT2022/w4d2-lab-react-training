@@ -1,6 +1,7 @@
 import './App.css';
 import IdCard from './components/IdCard';
 import Greetings from './components/Greetings';
+import Random from './components/Random';
 
 function App() {
   return (
@@ -31,6 +32,10 @@ function App() {
       </section>
 
       {/* .children : entre as tags de abertura e fechamento*/}
+
+      {/*iteração 3 */}
+      <Random min={1} max={6} />
+      <Random min={1} max={100} />
     </div>
   );
 }
